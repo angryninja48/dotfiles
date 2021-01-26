@@ -2,10 +2,20 @@
 - defaults:
      link:
       relink: true
+      create: true
 
-- clean: ['~'] # clean dead symlinks
+# - clean: ['~'] # clean dead symlinks
+
+- clean: # clean dead symlinks
+    ~/:
+    ~/config:
+        recursive: true
+
 
 - link: # Symlinks
     ~/.zshrc:
       force: true
       path: .zshrc
+    ~/.config/Kvantum:
+      force: true 
+      parth: .config/Kvantum/

@@ -1,0 +1,11 @@
+# help: https://github.com/anishathalye/dotbot#configuration
+- defaults:
+     link:
+      relink: true
+
+- clean: ['~'] # clean dead symlinks
+
+- link: # Symlinks
+    ~/.zshrc:
+      force: true
+      path: .zshrc

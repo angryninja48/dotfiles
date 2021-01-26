@@ -18,4 +18,4 @@
       path: .zshrc
     ~/.config/Kvantum:
       force: true 
-      parth: .config/Kvantum/
+      path: .config/Kvantum/

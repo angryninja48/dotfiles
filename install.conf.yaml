@@ -16,6 +16,10 @@
     ~/.zshrc:
       force: true
       path: .zshrc
-    ~/.config/Kvantum:
-      force: true 
-      path: .config/Kvantum/
+    ~/.tmux.conf:
+      force: true
+      path: .tmux.conf
+
+#    ~/.config/Kvantum:
+#      force: true 
+#      path: .config/Kvantum/
